@@ -1,0 +1,17 @@
+@import url('https://use.typekit.net/rig3fih.css');
+
+:root {
+  --font-family: 'termina', sans-serif;
+
+  --title-text: #161616;
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #b2a89f;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  --color-navbar: #161616;
+}
+
+/* https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&display=swap */

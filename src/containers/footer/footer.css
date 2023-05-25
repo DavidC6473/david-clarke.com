@@ -1,0 +1,698 @@
+.dc__footer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background: var(--color-bg);
+}
+
+.dc__footer-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  z-index: 1;
+}
+
+.dc__footer-title {
+  display: flex;
+  margin-bottom: 2rem;
+  color: #847365;
+  font-family: var(--font-family);
+  margin-top: 4rem;
+  text-align: center;
+  font-weight: 750;
+  font-size: 5vmax;
+  line-height: 10vmax;
+  text-transform: capitalize;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #161616;
+  cursor: default;
+  justify-content: center;
+  
+  /*text-shadow: #161616 0px 0px 12px;*/
+}
+
+.dc__footer-title-animation {
+  display: flex;
+  text-align: center;
+}
+
+.dc__footer-contactform {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.dc__contactform {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: var(--font-family);
+  color: #f06a00;
+}
+
+input[type=text] {
+  width: 60vw;
+  height: 5vh;
+  background-color: #161616;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+  color: #f06a00;
+  font-size: 1.6vh;
+  border: none;
+  margin-bottom: 3vh;
+  box-shadow: #f06a00 0px 4px 12px;
+  border-radius: .2rem;
+}
+
+input[type=text]:focus {
+  border: none;
+  outline: none;
+}
+
+textarea[name=message] {
+  width: 60vw;
+  height: 23vh;
+  background-color: #161616;
+  justify-content: center;
+  text-align: left;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: var(--font-family);
+  padding-top: 1vh;
+  color: #f06a00;
+  font-size: 1.5vh;
+  border: none;
+  margin-bottom: 3vh;
+  box-shadow: #f06a00 0px 4px 12px;
+  border-radius: .2rem;
+}
+
+textarea[name=message]:focus {
+  border: none;
+  outline: none;
+}
+
+button[type=submit] {
+  width: 20vw;
+  height: 5vh;
+  background-color: #161616;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+  color: #f06a00;
+  font-size: 1.8vh;
+  box-shadow: #f06a00 0px 4px 12px;
+  border: none;
+  border-radius: .2rem;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #847365;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #847365;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #847365;
+}
+
+textarea[name=message]::-webkit-scrollbar {
+  width: .4vw;
+}
+
+textarea[name=message]::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+textarea[name=message]::-webkit-scrollbar-thumb {
+  background-color: #f06a00;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .dc__footer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: var(--color-bg);
+  }
+  
+  
+  
+  .dc__footer-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    z-index: 1;
+  }
+  
+  .dc__footer-title {
+    display: flex;
+    margin-bottom: 2rem;
+    color: #847365;
+    font-family: var(--font-family);
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 750;
+    font-size: 5.4vmax;
+    line-height: 10vmax;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #161616;
+    cursor: default;
+    justify-content: center;
+    
+  }
+  
+  .dc__footer-title-animation {
+    display: flex;
+    text-align: center;
+  }
+  
+  .dc__footer-contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dc__contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: #f06a00;
+  }
+  
+  input[type=text] {
+    width: 60vw;
+    height: 5vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.6vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  textarea[name=message] {
+    width: 60vw;
+    height: 23vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: var(--font-family);
+    padding-top: 1vh;
+    color: #f06a00;
+    font-size: 1.5vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  textarea[name=message]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  button[type=submit] {
+    width: 20vw;
+    height: 5vh;
+    background-color: #161616;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.8vh;
+    box-shadow: #f06a00 0px 4px 12px;
+    border: none;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #847365;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #847365;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #847365;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar {
+    width: .4vw;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-track {
+    background: #161616;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-thumb {
+    background-color: #f06a00;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .dc__footer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: var(--color-bg);
+  }
+  
+  .dc__footer-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    z-index: 1;
+  }
+  
+  .dc__footer-title {
+    display: flex;
+    margin-bottom: 2rem;
+    color: #847365;
+    font-family: var(--font-family);
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 750;
+    font-size: 5.4vmax;
+    line-height: 10vmax;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #161616;
+    cursor: default;
+    justify-content: center;
+    
+  }
+  
+  .dc__footer-title-animation {
+    display: flex;
+    text-align: center;
+  }
+  
+  .dc__footer-contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dc__contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: #f06a00;
+  }
+  
+  input[type=text] {
+    width: 70vw;
+    height: 5vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.6vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  textarea[name=message] {
+    width: 70vw;
+    height: 23vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: var(--font-family);
+    padding-top: 1vh;
+    color: #f06a00;
+    font-size: 1.5vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  textarea[name=message]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  button[type=submit] {
+    width: 20vw;
+    height: 5vh;
+    background-color: #161616;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.5vh;
+    box-shadow: #f06a00 0px 4px 12px;
+    border: none;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #847365;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #847365;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #847365;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar {
+    width: .4vw;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-track {
+    background: #161616;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-thumb {
+    background-color: #f06a00;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .dc__footer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: var(--color-bg);
+  }
+  
+  .dc__footer-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    z-index: 1;
+  }
+  
+  .dc__footer-title {
+    display: flex;
+    margin-bottom: 2rem;
+    color: var(--color-bg);
+    font-family: var(--font-family);
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 750;
+    font-size: 5.4vmax;
+    line-height: 10vmax;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #161616;
+    cursor: default;
+    justify-content: center;
+    
+  }
+  
+  .dc__footer-title-animation {
+    display: flex;
+    text-align: center;
+  }
+  
+  .dc__footer-contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dc__contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: #f06a00;
+  }
+  
+  input[type=text] {
+    width: 80vw;
+    height: 5vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.6vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  textarea[name=message] {
+    width: 80vw;
+    height: 23vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: var(--font-family);
+    padding-top: 1vh;
+    color: #f06a00;
+    font-size: 1.5vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  textarea[name=message]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  button[type=submit] {
+    width: 25vw;
+    height: 5vh;
+    background-color: #161616;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.5vh;
+    box-shadow: #f06a00 0px 4px 12px;
+    border: none;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #847365;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #847365;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #847365;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar {
+    width: .4vw;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-track {
+    background: #161616;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-thumb {
+    background-color: #f06a00;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .dc__footer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: var(--color-bg);
+  }
+  
+  .dc__footer-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 3.2rem;
+    z-index: 1;
+  }
+  
+  .dc__footer-title {
+    display: flex;
+    margin-bottom: 2rem;
+    color: var(--color-bg);
+    font-family: var(--font-family);
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 750;
+    font-size: 5.4vmax;
+    line-height: 10vmax;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #161616;
+    cursor: default;
+    justify-content: center;
+    
+  }
+  
+  .dc__footer-title-animation {
+    display: flex;
+    text-align: center;
+  }
+  
+  .dc__footer-contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dc__contactform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: #f06a00;
+  }
+  
+  input[type=text] {
+    width: 80vw;
+    height: 5vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.6vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  textarea[name=message] {
+    width: 80vw;
+    height: 23vh;
+    background-color: #161616;
+    justify-content: center;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: var(--font-family);
+    padding-top: 1vh;
+    color: #f06a00;
+    font-size: 1.5vh;
+    border: none;
+    margin-bottom: 3vh;
+    box-shadow: #f06a00 0px 4px 12px;
+  }
+  
+  textarea[name=message]:focus {
+    border: none;
+    outline: none;
+  }
+  
+  button[type=submit] {
+    width: 25vw;
+    height: 5vh;
+    background-color: #161616;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    color: #f06a00;
+    font-size: 1.5vh;
+    box-shadow: #f06a00 0px 4px 12px;
+    border: none;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #847365;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #847365;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #847365;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar {
+    width: .4vw;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-track {
+    background: #161616;
+  }
+  
+  textarea[name=message]::-webkit-scrollbar-thumb {
+    background-color: #f06a00;
+    border-radius: 10px;
+  }
+}

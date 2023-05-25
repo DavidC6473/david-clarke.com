@@ -1,0 +1,27 @@
+.about__me {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .about__me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .aboutMe__text {
+        position: relative;
+        padding: 5vw;
+        text-align: center;
+        -webkit-text-stroke-width: .35vw;
+        -webkit-text-stroke-color: var(--title-text);
+        color: #847365;
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 2vmax;
+        text-transform: uppercase;
+        line-height: 3.5vmax;
+        text-rendering: optimizeLegibility;
+    }
+}
