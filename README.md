@@ -4,7 +4,7 @@ Welcome to my personal junior web developer portfolio! This portfolio is a work 
 
 ## Live Version
 
-You can view the live version of my portfolio on GitHub Pages at https://davidc6473.github.io/david-clarke.com/.
+You can view the live version of my portfolio at https://david-clarke.com/
 
 ## Key Features
 
