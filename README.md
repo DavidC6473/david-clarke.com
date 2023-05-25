@@ -38,8 +38,8 @@ To run my portfolio locally, you can follow these steps:
 Here are a few screenshots of my portfolio:
 
 ![Screenshot 1](./screenshots/screenshot1.PNG)
-![Screenshot 2](./screenshots/screenshot2.png)
-![Screenshot 3](./screenshots/screenshot3.png)
+![Screenshot 2](./screenshots/screenshot2.PNG)
+![Screenshot 3](./screenshots/screenshot3.PNG)
 
 ## Future Plans
 
